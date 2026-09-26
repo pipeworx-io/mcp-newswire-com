@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/newswire-com",
   "title": "Newswire Com",
   "description": "Newswire.com MCP — press releases from Newswire's public newsroom feed.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/newswire-com",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-newswire-com",

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-newswire-com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Newswire.com MCP — press releases from Newswire's public newsroom feed.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8e084c3b1e7f6b0fbd48fe9792933caef38a8f4aed5fbb5646e9e4c7b05bcb45",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-1c6964795ac026eeb2c9c3b1c7aec1fd031f255ea1fffd51a730b3e7fa16b459",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
