@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-newswire-com",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Newswire.com MCP — press releases from Newswire's public newsroom feed.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-newswire-com": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "newswire-com"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-newswire-com.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/newswire-com",
   "pipeworx": {
-    "sourceHash": "v1-8f12989d730b4c7f4ca230cd3ef7f809b9d6560d1a187e3848935e30c8c64d95",
-    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
+    "mode": "gateway",
+    "slug": "newswire-com",
+    "gatewaySlug": "newswire-com",
+    "sourceHash": "v1-bcd322c9bbfb51e53accf3647add72e61a138e7edf475bc77286edb842f9b5de",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
