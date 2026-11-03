@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-newswire-com",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Newswire.com MCP — press releases from Newswire's public newsroom feed.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "newswire-com",
     "gatewaySlug": "newswire-com",
-    "sourceHash": "v1-bcd322c9bbfb51e53accf3647add72e61a138e7edf475bc77286edb842f9b5de",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-40aba99f017a3ba40db13d941075fc79e8c63d3c1385986498fc8b273435089e",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
